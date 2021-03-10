@@ -1,0 +1,15 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.banner__impact_bold {
+  color: var(--electric-blue);
+  font-weight: bold;
+}
+
+.banner__impact {
+  color: var(--electric-blue);
+}
