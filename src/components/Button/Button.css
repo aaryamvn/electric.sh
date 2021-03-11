@@ -1,0 +1,29 @@
+.download__button {
+  background-color: var(--electric-blue);
+  color: var(--on-electric-blue);
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.download__button:hover {
+  background-color: var(--hover-electric-blue);
+}
+
+.btn {
+  margin-right: 10px;
+}
+
+.btn i {
+  margin-right: 10px;
+}
+.github__button {
+  background-color: var(--tertiary);
+  color: var(--on-tertiary);
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.github__button:hover {
+  color: var(--on-tertiary);
+  background-color: var(--hover-tertiary);
+}

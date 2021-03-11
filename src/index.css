@@ -8,15 +8,16 @@
   --on-secondary: #c5c6c7;
   --tertiary: #1f2833;
   --on-tertiary: #c5c6c7;
-  --hover-tertiary: #303019;
+  --hover-tertiary: #1f2227;
   --electric-blue: #4EAAC4;
-  --on-electric-blue: #e4e8ec;
-
+  --hover-electric-blue: #2d8ea8; 
+  --on-electric-blue: #010101;
 }
 
 html,
 body {
   height: 100vh;
+  width: 100vh;
 }
 
 body {
@@ -25,7 +26,21 @@ body {
 }
 
 .container {
-  margin-left: 16px;
-  margin-right: 16px !important;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
+
+@media only screen and (min-width: 1600px) {
+  .container {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .container {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+}

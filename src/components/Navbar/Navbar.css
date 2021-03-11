@@ -36,6 +36,6 @@
 }
 
 .active:hover {
-  background-color: var(--electric-blue);
+  background-color: var(--hover-electric-blue);
   color: var(--on-electric-blue);
 }
