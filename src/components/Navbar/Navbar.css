@@ -1,6 +1,11 @@
 .navbar {
   /* padding-bottom: 10px; */
-  position: fixed;
+  z-index: 1000;
+  background-color: var(--black)
+}
+
+.bg-dark {
+  background-color: var(--primary) !important;
 }
 
 .navbar__brand {
@@ -22,6 +27,7 @@
   color: var(--on-tertiary);
   margin: 0 7px;
   user-select: none;
+  text-transform: lowercase;
 }
 
 .nav-item:hover {
@@ -38,4 +44,10 @@
 .active:hover {
   background-color: var(--hover-electric-blue);
   color: var(--on-electric-blue);
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    display: none !important;
+  }
 }

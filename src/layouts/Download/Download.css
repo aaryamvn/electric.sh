@@ -1,0 +1,30 @@
+.download__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh; /* oi!!! */
+}
+
+.sub_download__section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#code {
+  overflow: hidden;
+}
+
+.lines {
+  color: white;
+  font-family: "Consolas";
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 7px;
+  height: 30px;
+  user-select: none;
+}
+
+.code-block {
+  background-color: #44475a;
+  border-radius: 15px;
+}

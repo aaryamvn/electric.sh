@@ -15,20 +15,14 @@
 }
 
 .row {
-  width: 100vh;
+  width: 100%;
 }
 
 .banner__text {
   user-select: none;
 }
 
-.banner__image_cont {
-  position: absolute;
-  right: 25px;
-}
-
 .banner__image {
-  float: right;
   width: 600px;
   height: 600px;
   object-fit: contain;
@@ -39,18 +33,6 @@
   .banner__image {
     width: 400px;
     height: 400px;
-  }
-}
-
-@media only screen and (min-width: 1600px) {
-  .banner__image_cont {
-    right: 80px;
-  }
-}
-
-@media only screen and (min-width: 1800px) {
-  .banner__image_cont {
-    right: 120px;
   }
 }
 
