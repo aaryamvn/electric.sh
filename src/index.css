@@ -67,3 +67,7 @@ img {
   flex-direction: column;
   align-items: center;
 }
+
+a, button {
+  cursor: pointer;
+}

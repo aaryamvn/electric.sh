@@ -3,7 +3,7 @@ import './Button.css'
 
 const Button = (props) => {
     return (
-        <a className={"btn " + props.className} href={props.link} target={props.target}>{props.children}</a>
+        <a className={"btn " + props.className} href={props.link} target={props.target} onClick={props.clickHandler}>{props.children}</a>
     )
 }
 
