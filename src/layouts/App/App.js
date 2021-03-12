@@ -14,7 +14,7 @@ export default function App() {
       <div className="App">
         <Navbar />
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
             <Home />
           </Route>
         </Switch>

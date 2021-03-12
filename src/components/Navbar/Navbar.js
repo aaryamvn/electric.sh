@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import ElectricLogo from "../../static/images/electric.png"
 import './Navbar.css';
 import $ from 'jquery';
