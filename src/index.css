@@ -3,13 +3,13 @@
 * {
   font-family: 'Montserrat', 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
   --primary: #0B0C10;
-  --on-primary: #c5c6c7;
+  --on-primary: #dededf;
   --secondary: #45a29e;
   --on-secondary: #c5c6c7; 
   --tertiary: #1f2833;
   --on-tertiary: #c5c6c7;
   --hover-tertiary: #1f2227;
-  --electric-blue: #4EAAC4;
+  --electric-blue: #5BCFFF;
   --hover-electric-blue: #2d8ea8; 
   --on-electric-blue: #010101;
   --white: #fff;

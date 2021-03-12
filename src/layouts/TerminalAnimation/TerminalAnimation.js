@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import './Download.css'
+import './TerminalAnimation.css'
 import $ from 'jquery';
 
 const Download = (props) => {
@@ -99,25 +99,23 @@ const Download = (props) => {
     }, [])
 
     return (
-        <section class="download__section" id="download__section">
-            <div className="sub_download__section">
-                <div class="container" id="snippet">
-                    <div id="header">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <br /><br />
-                    <div id="code">
-                        <p class="lines" id="line1"></p>
-                        <p class="lines" id="line2"></p>
-                        <p class="lines" id="line3"></p>
-                        <p class="lines" id="line4"></p>
-                        <p class="lines" id="line5"></p>
-                        <p class="lines" id="line6"></p>
-                        <p class="lines" id="line7"></p>
-                        <p class="lines" id="line8"></p>
-                    </div>
+        <section class="terminal__section" id="terminal__section">
+            <div class="container" id="snippet">
+                <div id="header">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <br /><br />
+                <div id="code">
+                    <p class="lines" id="line1"></p>
+                    <p class="lines" id="line2"></p>
+                    <p class="lines" id="line3"></p>
+                    <p class="lines" id="line4"></p>
+                    <p class="lines" id="line5"></p>
+                    <p class="lines" id="line6"></p>
+                    <p class="lines" id="line7"></p>
+                    <p class="lines" id="line8"></p>
                 </div>
             </div>
         </section>

@@ -1,6 +1,6 @@
 .download__button {
   background-color: var(--electric-blue);
-  color: var(--on-electric-blue);
+  color: var(--on-electric-blue) !important;
   font-weight: bold;
   margin-top: 10px;
 }

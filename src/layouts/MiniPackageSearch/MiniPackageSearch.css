@@ -1,0 +1,12 @@
+.mini__package_search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.sub__mini__package_search {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,25 @@
+.form-control {
+  background-color: transparent;
+  border-radius: 30px;
+}
+
+.form-control:focus {
+  background-color: transparent;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+::placeholder {
+  color: white !important;
+}
+
+.packageSearch {
+  width: 50%;
+  color: white !important;
+  border: 1px solid var(--electric-blue);
+  padding: 20px;
+}
+
+.packageSearch:focus {
+  border: 1px solid var(--electric-blue);
+}

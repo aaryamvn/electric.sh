@@ -12,6 +12,7 @@ const Navbar = (props) => {
             <ul class="navbar-nav">
                 <a class="nav-item nav-link active" href="#">Home</a>
                 <a class="nav-item nav-link" href="#">Documentation</a>
+                <a class="nav-item nav-link" href="#">Packages</a>
                 <a class="nav-item nav-link" href="#">Contribute</a>
             </ul>
         </nav>
