@@ -99,9 +99,9 @@ const Download = (props) => {
     }, [])
 
     return (
-        <section class="terminal__section" id="terminal__section">
+        <section className="terminal__section" id="terminal__section">
             <h1>because <span className="changing__adjective"></span> matters.</h1>
-            <div class="container" id="snippet">
+            <div className="container" id="snippet">
                 <div id="header">
                     <span></span>
                     <span></span>
@@ -109,14 +109,14 @@ const Download = (props) => {
                 </div>
                 <br /><br />
                 <div id="code">
-                    <p class="lines" id="line1"></p>
-                    <p class="lines" id="line2"></p>
-                    <p class="lines" id="line3"></p>
-                    <p class="lines" id="line4"></p>
-                    <p class="lines" id="line5"></p>
-                    <p class="lines" id="line6"></p>
-                    <p class="lines" id="line7"></p>
-                    <p class="lines" id="line8"></p>
+                    <p className="lines" id="line1"></p>
+                    <p className="lines" id="line2"></p>
+                    <p className="lines" id="line3"></p>
+                    <p className="lines" id="line4"></p>
+                    <p className="lines" id="line5"></p>
+                    <p className="lines" id="line6"></p>
+                    <p className="lines" id="line7"></p>
+                    <p className="lines" id="line8"></p>
                 </div>
             </div>
         </section>
