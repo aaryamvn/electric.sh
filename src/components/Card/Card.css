@@ -2,15 +2,16 @@
   padding: 10px;
   border-radius: 17px;
   margin-right: 10px;
-  height: 15rem;  
+  height: 15rem;
   margin-top: 30px;
-  background-color: #252836;
+  background-color: var(--tertiary);
+  color: var(--on-tertiary);
 }
 
 .adjCard__title {
   font-size: 50px;
   user-select: none;
-  font-weight: bold;
+  color: var(--electric-blue); 
 }
 
 .adjCard__text {

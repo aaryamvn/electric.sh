@@ -13,9 +13,9 @@ function App() {
         <TerminalAnimation />
         <div className="cards row">
           <div className="col-lg-4">
-            <Card title="speed." >
+            <Card title="speed.">
               electric's advanced concurrency management system makes it anywhere from 2x to 15x faster than its opposition.
-          </Card>
+            </Card>
           </div>
           <div className="col-lg-4">
             <Card title="effeciency.">
@@ -25,10 +25,10 @@ function App() {
           <div className="col-lg-4">
             <Card title="power.">
               electric can install over 2000 packages out of the box along with installing portable non-admin software
-          </Card>
+            </Card>
           </div>
         </div>
-        <MiniPackageSearch />
+        {/* <MiniPackageSearch /> */}
       </div>
     </div>
   );

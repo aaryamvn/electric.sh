@@ -109,3 +109,9 @@
     content: 'power';
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .terminal__section {
+    display: none;
+  }
+}
