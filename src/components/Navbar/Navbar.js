@@ -10,10 +10,10 @@ const Navbar = (props) => {
                 <span class="navbar-toggler-icon"></span>
             </button>
             <ul class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home</a>
-                <a class="nav-item nav-link" href="#">Documentation</a>
-                <a class="nav-item nav-link" href="#">Packages</a>
-                <a class="nav-item nav-link" href="#">Contribute</a>
+                <a class="nav-item nav-link active" href="www.example.com">Home</a>
+                <a class="nav-item nav-link" href="www.example.com">Packages</a>
+                <a class="nav-item nav-link" href="www.example.com">Documentation</a>
+                <a class="nav-item nav-link" href="www.example.com">Contribute</a>
             </ul>
         </nav>
     )

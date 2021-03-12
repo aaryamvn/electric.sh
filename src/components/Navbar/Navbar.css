@@ -1,7 +1,9 @@
 .navbar {
   /* padding-bottom: 10px; */
   z-index: 1000;
-  background-color: var(--black)
+  background-color: var(--black);
+  opacity: 0.8;
+  border-radius: 10px;
 }
 
 .bg-dark {

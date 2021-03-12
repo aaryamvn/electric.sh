@@ -1,25 +1,46 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
 .terminal__section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 90vh;
+  background-color: var(--white);
+  border-radius: 20px;
+}
+
+.terminal__section h1 {
+  color: var(--primary);
+  user-select: none;
+}
+.terminal__section h1 .changing__adjective {
+  color: var(--electric-blue);
+  font-weight: bold;
+}
+
+.terminal__section h1 .changing__adjective:before {
+  content: '';
+  animation: textChanger infinite 8s;
 }
 
 #code {
   overflow: hidden;
+  font-family: 'Fira Code', monospace;
+}
+
+#code span {
+  font-family: 'Fira Code', monospace;
 }
 
 .lines {
   color: white;
-  font-family: "Source Code Pro", monospace;
-  font-size: 1.3vw;
+  font-size: 20px;
   margin-top: 0px;
   margin-bottom: 7px;
   height: 30px;
   user-select: none;
+  font-family: 'Fira Code', monospace;
 }
 
 .code-block {
@@ -66,4 +87,25 @@
   background-color: rgb(21, 206, 67);
   top: 15px;
   left: 67px;
+}
+
+@keyframes textChanger{
+  0% {
+    content: 'speed';
+  }
+  20% {
+    content: 'effeciency';
+  }
+  40% {
+    content: 'power';
+  }
+  60% {
+    content: 'speed';
+  }
+  80% {
+    content: 'effeciency';
+  }
+  100% {
+    content: 'power';
+  }
 }

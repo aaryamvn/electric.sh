@@ -100,6 +100,7 @@ const Download = (props) => {
 
     return (
         <section class="terminal__section" id="terminal__section">
+            <h1>because <span className="changing__adjective"></span> matters.</h1>
             <div class="container" id="snippet">
                 <div id="header">
                     <span></span>
