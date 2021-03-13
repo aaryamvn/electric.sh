@@ -1,0 +1,8 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.adjCardCont {
+  margin-bottom: 10px;
+}

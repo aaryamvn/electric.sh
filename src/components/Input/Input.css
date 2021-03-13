@@ -14,7 +14,6 @@
 }
 
 .packageSearch {
-  width: 50%;
   color: white !important;
   border: 1px solid var(--electric-blue);
   padding: 20px;

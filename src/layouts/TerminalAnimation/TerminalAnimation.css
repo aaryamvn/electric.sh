@@ -26,11 +26,11 @@
 
 #code {
   overflow: hidden;
-  font-family: 'Fira Code', monospace;
+  font-family: 'consolas', monospace;
 }
 
 #code span {
-  font-family: 'Fira Code', monospace;
+  font-family: 'consolas', monospace;
 }
 
 .lines {
@@ -40,7 +40,7 @@
   margin-bottom: 7px;
   height: 30px;
   user-select: none;
-  font-family: 'Fira Code', monospace;
+  font-family: 'consolas', monospace;
 }
 
 .code-block {
