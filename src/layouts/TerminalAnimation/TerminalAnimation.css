@@ -25,6 +25,7 @@
 }
 
 #code {
+  margin-top: 10px;
   overflow: hidden;
   font-family: 'consolas', monospace;
 }

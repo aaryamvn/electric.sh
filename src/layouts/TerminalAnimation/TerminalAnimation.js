@@ -8,7 +8,7 @@ const Download = (props) => {
         appendLine1();
 
         function appendLine1() {
-            $('#line1').append('<span style="color: #50fa7b">→</span> <span style="color: #8be9fd">~\\Desktop</span><span style="color: #ff79c6">></span> <span style="color:#50fa7b"> electric </span> install 7-Zip');
+            $('#line1').append('<span style="color: #8be9fd">⚡</span><span style="color:#50fa7b"> electric </span> install 7-Zip');
             setTimeout(appendLine2, 50);
         }
 
@@ -43,7 +43,7 @@ const Download = (props) => {
         }
 
         function appendLine8() {
-            $('#line8').append('<span style="color: #50fa7b">→</span> <span style="color: #8be9fd">~\\Desktop</span><span style="color: #ff79c6">></span>');
+            $('#line8').append('<span style="color: #8be9fd">⚡</span><span style="color: #ff79c6"></span>');
             setTimeout(removeLines, 3000);
         }
 
@@ -53,7 +53,7 @@ const Download = (props) => {
         }
 
         function appendFirstLine() {
-            $('#line1').append('<span style="color: #50fa7b">→</span> <span style="color: #8be9fd">~\\Desktop</span><span style="color: #ff79c6">></span> <span style="color:#50fa7b"> electric </span> uninstall 7-Zip');
+            $('#line1').append('<span style="color: #8be9fd">⚡</span><span style="color:#50fa7b"> electric </span> uninstall 7-Zip');
             setTimeout(appendSecondLine, 50);
         }
 
@@ -88,7 +88,7 @@ const Download = (props) => {
         }
 
         function appendEighthLine() {
-            $('#line8').append('<span style="color: #50fa7b">→</span> <span style="color: #8be9fd">~\\Desktop</span><span style="color: #ff79c6">></span>');
+            $('#line8').append('<span style="color: #8be9fd">⚡</span>');
             setTimeout(removeLinesForUninstall, 3000);
         }
 
@@ -107,7 +107,8 @@ const Download = (props) => {
                     <span></span>
                     <span></span>
                 </div>
-                <br /><br />
+                <br />
+                <br />
                 <div id="code">
                     <p className="lines" id="line1"></p>
                     <p className="lines" id="line2"></p>
