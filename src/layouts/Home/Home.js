@@ -7,6 +7,7 @@ import Banner from "../Banner/Banner";
 import TerminalAnimation from "../TerminalAnimation/TerminalAnimation";
 import MiniPackageSearch from "../MiniPackageSearch/MiniPackageSearch";
 import Cards from '../../components/Cards/Cards';
+import Download from '../Download/Download';
 
 const Home = () => {
   return (
@@ -15,7 +16,8 @@ const Home = () => {
         <Banner />
         <TerminalAnimation />
         <Cards />
-        <MiniPackageSearch />
+        <Download />
+        {/* <MiniPackageSearch /> */}
       </div>
     </div>
   )

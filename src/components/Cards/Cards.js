@@ -19,8 +19,8 @@ const Cards = () => {
                 </Card>
             </div>
             <div className="col-lg-4 adjCardCont">
-                <Card title="efficient." emoji="🚀">
-                    electric is the first windows package manager to officially support installing packages concurrently, because effeciency matters.
+                <Card title="efficiency." emoji="🚀">
+                    electric is the first windows package manager to officially support installing packages concurrently, because efficiency matters.
                 </Card>
             </div>
             <div className="col-lg-4 adjCardCont">

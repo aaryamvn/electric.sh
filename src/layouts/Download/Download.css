@@ -1,0 +1,20 @@
+.download__section {
+    margin-top: 50px;
+}
+
+.download__section_title {
+ 
+}
+
+.download__method {
+    margin-bottom: 50px;
+    
+}
+
+.download__method:nth-child(1) {
+    margin-right: 10px;
+}
+
+.download__method_text {
+    /* color: var(--electric-blue) */
+}
