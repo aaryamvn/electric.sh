@@ -15,8 +15,7 @@
   user-select: none;
 }
 .terminal__section h1 .changing__adjective {
-  color: var(--electric-blue);
-  font-weight: bold;
+  color: var(--electric-blue-dark);
 }
 
 .terminal__section h1 .changing__adjective:before {

@@ -31,12 +31,17 @@ const Download = () => {
             <div className="download__section">
                 <h1 className="download__section_title">download electric.</h1>
                 <div className="download__methods row">
-                    <div className="download__method col">
-                        <h3 className="download__method_title">install using the installer</h3> 
+                    <div className="download__method col-md mr-md-3 col-sm-6 d-flex flex-column align-items-center">
+                        <h3 className="download__method_title">using the official installer</h3>
                         <Button className="download__button" link="http://electric-package-manager.herokuapp.com/install/windows"><i className="fab fa-windows"></i>Download For Windows</Button>
+                        <div className="download__steps">
+                            <span className="download__step">Step 1: Run the installer</span>
+                            <span className="download__step">Step 2: Type in "electric" in your command line interface of choices</span>
+                            <span className="download__step">Electric is now installed on your system!</span>
+                        </div>
                     </div>
-                    <div className="download__method col">
-                        <h3 className="download__method_title">install using powershell</h3>
+                    <div className="download__method col-md col-sm-6">
+                        <h3 className="download__method_title">using powershell</h3>
                     </div>
                 </div>
             </div>

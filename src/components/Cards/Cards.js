@@ -11,16 +11,17 @@ const Cards = () => {
     });
 
     $(".adjCardCont").height(maxHeight);
+    
     return (
         <div className="cards row">
             <div className="col-lg-4 adjCardCont">
                 <Card title="speed." emoji="⚡">
-                    electric's advanced concurrency management system makes it anywhere from 2x to 15x faster than its opposition.
+                    electric's advanced multi-threading nature makes it anywhere from 2x to 15x faster than its opposition.
                 </Card>
             </div>
             <div className="col-lg-4 adjCardCont">
                 <Card title="efficiency." emoji="🚀">
-                    electric is the first windows package manager to officially support installing packages concurrently, because efficiency matters.
+                    electric is the first windows package manager to officially support installing packages concurrently.
                 </Card>
             </div>
             <div className="col-lg-4 adjCardCont">

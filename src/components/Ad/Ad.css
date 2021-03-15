@@ -1,0 +1,17 @@
+.ad {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.ad__title {
+    font-size: 25px;
+}
+
+.bg-tertiary {
+  background-color: var(--tertiary);  
+  color: var(--on-tertiary)
+}
+
+.color-electric-blue {
+    color: var(--electric-blue);
+}

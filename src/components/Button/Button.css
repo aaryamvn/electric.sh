@@ -16,14 +16,29 @@
 .btn i {
   margin-right: 10px;
 }
+
 .github__button {
-  background-color: var(--tertiary);
-  color: var(--on-tertiary);
   font-weight: bold;
   margin-top: 10px;
+  background-color: var(--tertiary);
+  color: var(--on-tertiary);
 }
 
 .github__button:hover {
   color: var(--on-tertiary);
   background-color: var(--hover-tertiary);
+}
+
+.add__package_btn {
+  background-color: var(--tertiary);
+  color: var(--on-tertiary) !important;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.add__package_btn:hover {
+  background-color: var(--hover-tertiary);
+  color: var(--on-tertiary) !important;
 }

@@ -35,11 +35,11 @@ const Banner = (props) => {
                 <div className="banner__text">
                     <h1 className="banner__impact_bold">package management,</h1>
                     <h2>at <span className="banner__impact">lightning</span> speed.</h2>
-                    {getOS() === 'Windows' ? <Button className="download__button" link="http://electric-package-manager.herokuapp.com/install/windows"><i className="fab fa-windows"></i>Download For Windows</Button> : ''}
+                    {getOS() === 'Windows' ? <Button className="download__button" link="http://electric-package-manager.herokuapp.com/install/windows"><i className="fab fa-windows"></i>Get For Windows</Button> : ''}
                     <Button className="github__button" link="https://github.com/electric-package-manager/electric" target="_blank"><i className="fab fa-github"></i> View on GitHub</Button>
                 </div>
                 <div className="d-none d-lg-block banner__image_cont">
-                    <img src={packages} alt="" className="mt-3 banner__image" />
+                    <img src={packages} alt="" className="mt-3 banner__image" draggable="false" />
                 </div>
             </div>
         </div>

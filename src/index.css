@@ -4,12 +4,13 @@
   font-family: "Montserrat", "Segoe UI", Tahoma, "Geneva", Verdana, sans-serif;
   --primary: #0b0c10;
   --on-primary: #dededf;
-  --secondary: #45a29e;
-  --on-secondary: #c5c6c7;
   --tertiary: #1f2833;
   --on-tertiary: #c5c6c7;
   --hover-tertiary: #1f2227;
+  --tertiary-condensed: #22272e;
   --electric-blue: #5bcfff;
+  --electric-blue-dark: #246885;
+  --on-electric-blue-dark: #f1f1f1;
   --hover-electric-blue: #2d8ea8;
   --on-electric-blue: #010101;
   --white: rgb(233, 233, 233);
@@ -66,4 +67,13 @@ img {
 a,
 button {
   cursor: pointer;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+.col {
+  margin-right: 15px;
+  margin-left: 15px;
 }
